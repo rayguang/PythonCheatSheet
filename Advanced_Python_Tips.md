@@ -35,3 +35,8 @@ tupled_list=(a,b)
 a.append(5)
 b.append('c')
 ```
+
+Output is:
+```
+([1, 2, 4, 5], ['a', 'b', 'c'])
+```
