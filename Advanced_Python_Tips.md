@@ -42,7 +42,7 @@ Output is:
 ```
 
 ### Closure Pattern
-* What: A nested function reference a value in its enclosing scope
+* What: A nested function reference a value in its enclosing scope. The value in the enclosing scope is remembered even if the variable goes out of the scope or the function itself is removed from the current namespace.
 ** We must have a nested function (function within function)
 ** The nested function must reference a value in ints enclosing scope
 ** The enclosing function must return the nested function.
@@ -50,8 +50,10 @@ Output is:
 For example, 
 ```
 def print_msg(msg):
+# Outer enclosing scope
 
     def printer():
+    # Nested function
         print(msg)
 
     return printer
