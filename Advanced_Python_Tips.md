@@ -40,3 +40,23 @@ Output is:
 ```
 ([1, 2, 4, 5], ['a', 'b', 'c'])
 ```
+
+### Closure Pattern
+* What: A nested function reference a value in its enclosing scope
+** We must have a nested function (function within function)
+** The nested function must reference a value in ints enclosing scope
+** The enclosing function must return the nested function.
+
+For example, 
+```
+def print_msg(msg):
+
+    def printer():
+        print(msg)
+
+    return printer
+
+
+another = print_msg('hello')
+another()
+```
