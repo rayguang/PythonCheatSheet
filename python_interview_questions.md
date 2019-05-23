@@ -1,14 +1,14 @@
-### Explain Python GIL
+1. Explain Python GIL
 Technically, GIL is a lock of the interpreter that any execution of python bytecode needs to acquire.
 
 * SO answer:
 https://stackoverflow.com/questions/1294382/what-is-the-global-interpreter-lock-gil-in-cpython
 
-### What is Understore _ 
+1. What is Understore _ 
 https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc
 
 
-### In Python, what is the difference between a generator  expression and a list comprehension?
+1. In Python, what is the difference between a generator  expression and a list comprehension?
 Generator evaluates a next on call, list evaluates and stores all results in one shot.
 
 For example,
