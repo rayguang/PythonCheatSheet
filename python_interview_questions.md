@@ -3,3 +3,6 @@ Technically, GIL is a lock of the interpreter that any execution of python bytec
 
 * SO answer:
 https://stackoverflow.com/questions/1294382/what-is-the-global-interpreter-lock-gil-in-cpython
+
+### Understore _ in python
+https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc
