@@ -6,7 +6,9 @@ https://stackoverflow.com/questions/1294382/what-is-the-global-interpreter-lock-
 
 ### Explain Python data structure
 * list: ordered, non-unique, mutable
+** array: not built-in data types, similar to list, but different on the functions can be performed on object, e.g., math function can be applied on each element of array but not list (https://www.pythoncentral.io/the-difference-between-a-list-and-an-array/)
 * set: unordered, unique, mutable
+** frozenset: unorderd, unique, immutable
 * dict: unordered, unique key, mutable
 * strings: ordered, immutable
 * tuple: ordered, non-unique, immutable
