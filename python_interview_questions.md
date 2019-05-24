@@ -4,6 +4,13 @@ Technically, GIL is a lock of the interpreter that any execution of python bytec
 * SO answer:
 https://stackoverflow.com/questions/1294382/what-is-the-global-interpreter-lock-gil-in-cpython
 
+### Explain Python data structure
+** list: ordered, non-unique, mutable
+** set: unordered, unique, mutable
+** dict: unordered, unique key, mutable
+** strings: ordered, immutable
+** tuple: ordered, non-unique, immutable
+
 ### What is Understore _ 
 https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc
 
