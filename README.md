@@ -16,8 +16,8 @@ df['creation_date'] = pd.to_datetime(df['creation_date']).values.astype(np.int64
 # Scikit Learn
 ## Pipeline
 ### fit, fit_transform
-Difference between fit() and fit_transform()
+*Difference between fit() and fit_transform()*
 https://datascience.stackexchange.com/questions/12321/difference-between-fit-and-fit-transform-in-scikit-learn-models
 
-A deep dive into sklearn pipelines
+* A deep dive into sklearn pipelines *
 https://www.kaggle.com/baghern/a-deep-dive-into-sklearn-pipelines
