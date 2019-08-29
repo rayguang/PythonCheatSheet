@@ -24,3 +24,12 @@ https://datascience.stackexchange.com/questions/12321/difference-between-fit-and
 * A deep dive into sklearn pipelines *
 
 https://www.kaggle.com/baghern/a-deep-dive-into-sklearn-pipelines
+
+
+# Data Structure
+### Tuple list to Dict
+```
+>>> my_list = [('a', 1), ('b', 2)]
+>>> dict(my_list)
+{'a': 1, 'b': 2}
+```
