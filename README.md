@@ -3,6 +3,7 @@ A collection of python programming cheat sheet and tips
 
 # Python tips
 [Python anti-pattern](https://docs.quantifiedcode.com/python-anti-patterns/correctness/index.html): common problems with python coding
+
 [Python gotcha](https://docs.python-guide.org/writing/gotchas/): useful advanced Python coding warnings/errors and fix
 
 
