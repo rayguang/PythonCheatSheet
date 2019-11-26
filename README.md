@@ -39,3 +39,6 @@ https://www.kaggle.com/baghern/a-deep-dive-into-sklearn-pipelines
 >>> dict(my_list)
 {'a': 1, 'b': 2}
 ```
+
+# Multiprocess
+[Multiproc vs Multi Thread](https://stackoverflow.com/questions/3044580/multiprocessing-vs-threading-python)
