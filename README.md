@@ -28,3 +28,5 @@ df['creation_date'] = pd.to_datetime(df['creation_date']).values.astype(np.int64
 
 # Multiprocess
 [Multiproc vs Multi Thread](https://stackoverflow.com/questions/3044580/multiprocessing-vs-threading-python)
+
+[Parallel CPU Bound Tasks with Multiproc](https://eli.thegreenplace.net/2012/01/16/python-parallelizing-cpu-bound-tasks-with-multiprocessing/)
