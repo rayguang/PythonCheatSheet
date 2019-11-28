@@ -15,8 +15,11 @@ pd.set_option('display.max_rows', None)
 ```
 #### Merge, Join vs Concat
 [Stackoverflow comparison](https://stackoverflow.com/questions/40468069/merge-two-dataframes-by-index)
+
 [Pandas Official Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
+
 [Martin-thoma Blog on merge, join and concat](https://martin-thoma.com/pandas-merge-join-concatenate/)
+
 ### Convert Timestamp to epoch
 ```
 df['creation_date'] = pd.to_datetime(df['creation_date']).values.astype(np.int64) // 1e9
