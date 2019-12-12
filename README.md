@@ -7,7 +7,7 @@ A collection of python programming cheat sheet and tips
 [Python gotcha](https://docs.python-guide.org/writing/gotchas/): useful advanced Python coding warnings/errors and fix
 
 ## Exception Handling
-(StackOverflow: Manual Throw Exception)[https://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python]
+[StackOverflow: Manual Throw Exception](https://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python)
 
 # Pandas
 ### Show all column names of pandas frame
