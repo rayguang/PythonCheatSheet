@@ -6,6 +6,10 @@ A collection of python programming cheat sheet and tips
 
 [Python gotcha](https://docs.python-guide.org/writing/gotchas/): useful advanced Python coding warnings/errors and fix
 
+# Python Advanced
+## Metaclass
+[ionelmc.ro Blog on Understanding Python Metaclass](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)
+
 ## Exception Handling
 [StackOverflow: Manual Throw Exception](https://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python)
 
